@@ -19,7 +19,7 @@ alert("注意 このプロジェクトはベータです");
   required
   minlength="8"
   maxlength="32"
-  size="10" />
+  size="45" />
 
 <button id="sita" type="button" onclick=" tuika()">追加
 </button>
@@ -29,6 +29,10 @@ function tuika() {
   var elm = document.getElementById('sita');
 
   elm.textContent = '追加しました！';
+
+  var na = document.getElementById('tu');
+
+  na.textContent = 'スタジオに';
   
 alert("スタジオに追加しました！");
 
