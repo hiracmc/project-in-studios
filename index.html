@@ -28,11 +28,11 @@ function tuika() {
 
   elm.textContent = '追加しました！';
 
-  var na = document.getElementById('tu');
+  var na = document.getElementById('tu').value;
 
   na.textContent = 'スタジオに';
   
-alert("スタジオに追加しました！");
+alert(`${na.value} をスタジオに追加しました`);
 
   var btn = document.getElementById('sita');
 
